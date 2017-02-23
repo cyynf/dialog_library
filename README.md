@@ -1,7 +1,7 @@
 # dialog_library
- <h2>仿IOS对话框：</h2><br>
- 
-  new AlertDialog(this)
+ <h3>仿IOS对话框：</h3><br> 
+``` java
+new AlertDialog(this)
   .builder()
   .setTitle("提示")
   .setMsg("要放弃编辑的内容吗？")
@@ -18,8 +18,9 @@
        }
     })
   .show();
+  ```
 
-
+``` java
   new ActionSheetDialog(MenuActivity.this)
                         .builder()
                         .setTitle("注销后需要重新登录，确认要注销吗？")
@@ -36,8 +37,8 @@
                                         JPushInterface.setAlias(MenuActivity.this, "", tagAliasCallback);
                                     }
                                 }).show();
-                                
-
+```                                
+``` java
  ActionSheetDialog.OnSheetItemClickListener onSheetItemClickListener = new ActionSheetDialog.OnSheetItemClickListener() {
             @Override
             public void onClick(int which) {
@@ -57,12 +58,13 @@
                     }
                 });
                 actionSheetDialog.show();
-                
+  ```              
  ---------------------------------------------------------------------------------------------  
  
  
  动画加载对话框：
  ---------------------------------------------------------------------------------------------
+ ``` java
  //初始化对话框<br>
 ShapeLoadingDialog loadingDialog = new ShapeLoadingDialog(this);
  loadingDialog.setLoadingText("加载中...");
@@ -70,5 +72,5 @@ ShapeLoadingDialog loadingDialog = new ShapeLoadingDialog(this);
   loadingDialog.show();
   //隐藏
   loadingDialog.dismiss();
- 
+ ```
   
