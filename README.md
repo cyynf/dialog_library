@@ -54,7 +54,8 @@ ActionSheetDialog.OnSheetItemClickListener onSheetItemClickListener = new Action
                     }
                 });
                 actionSheetDialog.show();
-  ```              
+  ```  
+  
  <h3> 动画加载对话框：</h3><br> 
 
  ``` java
@@ -66,4 +67,10 @@ ShapeLoadingDialog loadingDialog = new ShapeLoadingDialog(this);
   //隐藏
   loadingDialog.dismiss();
  ```
-  
+ 
+ <h3> 旋转加载对话框：</h3><br> 
+ ``` java
+  CustomProgress diaog;
+  diaog = CustomProgress.show(this, "加载中...", true, null);
+  diaog.dismiss();
+  ```
