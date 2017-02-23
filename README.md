@@ -30,11 +30,7 @@ new AlertDialog(this)
                                 , new ActionSheetDialog.OnSheetItemClickListener() {
                                     @Override
                                     public void onClick(int which) {
-                                        Intent intent = new Intent(MenuActivity.this, LoginActivity.class);
-                                        startActivity(intent);
-                                        finish();
-                                        DBUtil.getConn(getApplicationContext()).delUser();
-                                        JPushInterface.setAlias(MenuActivity.this, "", tagAliasCallback);
+                                       
                                     }
                                 }).show();
 ```                                
