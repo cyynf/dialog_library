@@ -39,7 +39,7 @@ new AlertDialog(this)
                                 }).show();
 ```                                
 ``` java
- ActionSheetDialog.OnSheetItemClickListener onSheetItemClickListener = new ActionSheetDialog.OnSheetItemClickListener() {
+ActionSheetDialog.OnSheetItemClickListener onSheetItemClickListener = new ActionSheetDialog.OnSheetItemClickListener() {
             @Override
             public void onClick(int which) {
                
@@ -59,8 +59,7 @@ new AlertDialog(this)
                 });
                 actionSheetDialog.show();
   ```              
-
- 动画加载对话框：
+ <h3> 动画加载对话框：</h3><br> 
 
  ``` java
  //初始化对话框<br>
