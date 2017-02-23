@@ -73,4 +73,4 @@ ShapeLoadingDialog loadingDialog = new ShapeLoadingDialog(this);
   CustomProgress diaog;
   diaog = CustomProgress.show(this, "加载中...", true, null);
   diaog.dismiss();
-  ```
+ ```
