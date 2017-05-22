@@ -71,7 +71,8 @@ ShapeLoadingDialog loadingDialog = new ShapeLoadingDialog(this);
  ```
  
  <h3> 旋转加载对话框：</h3><br> 
-``` java
+ 
+ ``` java
   CustomProgress diaog;
   diaog = CustomProgress.show(this, "加载中...", true, null);
   diaog.dismiss();
