@@ -1,7 +1,7 @@
 # dialog_library
  <h3>仿IOS对话框：</h3><br> 
 ``` java
-new AlertDialog(this)
+   new AlertDialog(this)
   .builder()
   .setTitle("提示")
   .setMsg("要放弃编辑的内容吗？")
@@ -18,7 +18,8 @@ new AlertDialog(this)
        }
     })
   .show();
-  ```
+  
+```
 
 ``` java
   new ActionSheetDialog(MenuActivity.this)
@@ -33,7 +34,8 @@ new AlertDialog(this)
                                        
                                     }
                                 }).show();
-```                                
+```             
+
 ``` java
 ActionSheetDialog.OnSheetItemClickListener onSheetItemClickListener = new ActionSheetDialog.OnSheetItemClickListener() {
             @Override
