@@ -1,6 +1,7 @@
 # dialog_library
  <h3>仿IOS对话框：</h3><br> 
- ``` java
+
+``` java
    new AlertDialog(this)
   .builder()
   .setTitle("提示")
