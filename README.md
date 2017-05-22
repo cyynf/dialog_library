@@ -1,6 +1,7 @@
 # dialog_library
  <h3>仿IOS对话框：</h3><br> 
 ``` java
+
    new AlertDialog(this)
   .builder()
   .setTitle("提示")
@@ -22,6 +23,7 @@
 ```
 
 ``` java
+
   new ActionSheetDialog(MenuActivity.this)
                         .builder()
                         .setTitle("注销后需要重新登录，确认要注销吗？")
@@ -37,6 +39,7 @@
 ```             
 
 ``` java
+
 ActionSheetDialog.OnSheetItemClickListener onSheetItemClickListener = new ActionSheetDialog.OnSheetItemClickListener() {
             @Override
             public void onClick(int which) {
